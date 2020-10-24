@@ -320,7 +320,6 @@ namespace CsgoHackPlayground
 
                 // Wall Hack
                 int glow_manager = Memory.ReadMemory<int>(client + Offsets.signatures.dwGlowObjectManager);
-                Console.WriteLine("glow_manager: " + glow_manager);
 
                 if (local_player != 0 && glow_manager != 0)
                 {
